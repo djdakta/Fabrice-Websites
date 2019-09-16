@@ -1,0 +1,46 @@
+/*These is the styling of the buttons menus!
+This aligns the buttons - font size of 40px and the background color is red!
+*/
+
+nav.menu-nav ul li.btn{
+    display: inline-block;
+    list-style-type: none;
+    font-size: 40px;
+    background-color: red;
+}
+
+/*This removes the underlining and makes the button a bit bigger thx to: padding: 10px (text is in white)
+*/
+
+nav.menu-nav ul li.btn a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/*When hovering over a button, the background changes from red to white and the transition takes 0.3s to take place!
+*/
+
+nav.menu-nav ul li.btn:hover a{
+    color: red;
+    background-color: white;
+    transition: 0.3s all;
+}
+
+
+/*This is the styling of the page's content
+*/
+
+h1{
+    color: black;
+    font-size: 30px;
+}
+
+p.p1{
+    color: orange;
+
+}
+
+p.p2{
+    color: olive;
+}
